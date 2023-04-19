@@ -62,10 +62,10 @@ define(['taoQtiItem/portableLib/jquery_2_1_1',
             zone.append(z_text);
         }
 
-        $container.append("<button class='bt bt-boiler' style='background-color:orange; margin:10px;'>Observation n°1</button>"+
-            "<button class='bt bt-choco' style='background-color:orange; margin:10px;'>Observation n°2</button>"+
-            "<button class='bt bt-feu' style='background-color:orange; margin:10px;'>Observation n°3</button>" +
-            "<button class='bt bt-tartre' style='background-color:orange; margin:10px;'>Observation n°4</button>"
+        $container.find(".block_cuisine").append("<button class='bt bt-boiler' style='background-color:orange;'>Observation n°1</button>"+
+            "<button class='bt bt-choco' style='background-color:orange;'>Observation n°2</button>"+
+            "<button class='bt bt-feu' style='background-color:orange;'>Observation n°3</button>" +
+            "<button class='bt bt-tartre' style='background-color:orange;'>Observation n°4</button>"
         );
 
         var $btboiler = $container.find(".bt-boiler");
